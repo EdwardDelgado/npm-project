@@ -1,18 +1,17 @@
 const $ = require("jquery");  // loads jquery.min.js
-const $ = require("jquery"); // loading jquery.min.js
+
 // npm way
 //const data = require("./data");
 import configuration from "./data";
+import wave from "./say-hello";//import " " is assigning variable.
+import math from "./math";
+
+
 // npm way
 //const math = require("./math");
 // math is a variable, I could have used m
 // instead and call m.add(1, 2)
-import /* into */ math from "./math";
-
-console.log(math.add(10, 98));
-console.log(math.subtract(1, 98));
-console.log(math.multiply(2, 9));
-console.log(math.divide(10, 2.5));
+wave();
 
 // similar to doing this
 /*const data = {
@@ -25,6 +24,7 @@ const hello = () => console.log("hello redwood from webpack!");
 
 hello();
 
+console.log(math.multiply(3,4));
 console.log(configuration.whichSideOfTheForce);
 
 $("body")
