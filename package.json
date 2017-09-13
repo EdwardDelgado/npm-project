@@ -4,6 +4,7 @@
   "description": "npm project",
   "main": "src/index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edward Delgado Jr. <edward.delgado@icloud.com>",

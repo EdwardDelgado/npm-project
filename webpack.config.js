@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/index.js',
   // where to put the transpiled javascript
   output: {
-    path: path.resolve(__dirname, 'public'),
+    path: path.resolve(__dirname, 'public/js'),
     filename: 'main.js'
   },
 
